@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: "lts/*"
       - name: Install dependencies
-        run: npm install -g semantic-release @semantic-release/git gradle-semantic-release-plugin
+        run: npm install -g semantic-release @semantic-release/git
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
