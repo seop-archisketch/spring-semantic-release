@@ -7,7 +7,6 @@ plugins {
 }
 
 group = "com.seopyoon"
-version = "${property("applicationVersion")}"
 
 java {
 	toolchain {
